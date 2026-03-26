@@ -1,7 +1,8 @@
 # Medical Abstract Classification: From Statistical Baselines to BioBERT 🏆
 
-This repository contains my winning solution for the Medical NLP Challenge, 
-where I achieved **1st Place** with an accuracy of **0.652**.
+This repository contains my winning solution for a **Medical NLP Challenge** held within the **Master's Degree in Statistical Sciences** at the **University of Padua**.
+
+I achieved **1st Place** in the final leaderboard with an accuracy of **0.652**, using a state-of-the-art Deep Learning approach.
 
 ## 📌 Project Overview
 The goal was to classify 9,000+ medical abstracts into 5 distinct categories. 
@@ -18,7 +19,7 @@ to state-of-the-art Transformers.
 ## 🛠️ Key Technical Decisions
 - **BioBERT Integration:** Used `dmis-lab/biobert-v1.1` for its superior understanding of clinical terminology.
 - **Cloud Computing:** Leveraged Google Colab (Tesla T4 GPU) to reduce training time from 15 hours to 45 minutes.
-- **Robust Pipeline:** Extracted 768-dimensional embeddings and class probabilities for downstream analysis in R.
+- **Methodology:** Applied an incremental testing strategy, validating the pipeline on small batches before the full training phase to ensure reproducibility.
 
 ## 📂 Contents
 - `BioBERT_Training.ipynb`: Full fine-tuning and inference notebook.
@@ -26,4 +27,5 @@ to state-of-the-art Transformers.
 - `previsions/`: Final classification output.
 
 ---
-**Piero Faedo** [piero.faedo@outlook.com](mailto:piero.faedo@outlook.com)
+**Piero Faedo** [piero.faedo@outlook.com](mailto:piero.faedo@outlook.com)  
+*Master's Student in Statistical Sciences @ University of Padua*
