@@ -61,12 +61,13 @@ While the final feature CSV is not uploaded due to size constraints, the pipelin
 
 ## 📂 Project Structure
 * **`01_r_baseline/`**: Initial exploration and Random Forest scripts (R).
+    * `01_01_random_forest_analysis.R`
 * **`02_transformers_exploration/`**:
     * `02_01_zero_shot_bart.py`: Semantic reasoning test.
     * `02_02_biobert_pipeline_validation.py`: Technical PoC on 100 samples.
-* **`03_biobert_final_results/`**:
+* **`03_biobert_final_model_and_results/`**:
     * `03_01_biobert_full_finetuning.py`: Winning model script.
-    * `final_predictions.txt`: Submission file for the 2,000 validation samples.
+    * `03_02_final_predictions.txt`: Submission file for the 2,000 validation samples.
 
 ---
 
