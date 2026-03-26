@@ -1,4 +1,4 @@
-# Medical Abstract Classification: From Statistical Baselines to BioBERT 🧬
+# Medical Abstract Classification: From Ensemble Learning (Random Forest) to Deep Learning (BioBERT) 🏆
 
 This repository contains the full research workflow and winning solution for a **Medical NLP Challenge** (Master’s Degree in Statistical Sciences, University of Padua). 
 
