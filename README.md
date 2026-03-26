@@ -26,5 +26,5 @@ The project followed an iterative research workflow, moving from robust ensemble
 - `previsions/`: Final classification output for the 2,000 validation samples.
 
 ---
-**Piero Faedo** [piero.faedo@outlook.com](mailto:piero.faedo@outlook.com)  
-*Master's Student in Statistical Sciences @ University of Padua*
+---
+**Piero Faedo** 📧 [piero.faedo@outlook.com](mailto:piero.faedo@outlook.com)
