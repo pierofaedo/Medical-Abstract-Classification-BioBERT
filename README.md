@@ -46,7 +46,6 @@ Step | Training Loss
 1000 | 0.7147
 1500 | 0.6084
 1791 | 0.5892 (Final)
-
 The steady decline in loss from 1.32 to 0.58 confirmed proper weight optimization during the 3 epochs of fine-tuning.
 
 ---
