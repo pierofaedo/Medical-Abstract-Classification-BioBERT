@@ -17,7 +17,7 @@ The project followed an iterative research workflow, moving from robust ensemble
 
 ## 🛠️ Key Technical Decisions
 - **Domain-Specific Transformers:** Utilized `dmis-lab/biobert-v1.1` (pre-trained on PubMed/PMC) to capture complex clinical terminology far more effectively than general-purpose models.
-- **Compute Strategy:** Migrated the pipeline to Google Colab (Tesla T4 GPU) to handle the computational intensity of Transformer fine-tuning, optimizing training time from hours to minutes.
+- **Compute Strategy:** Migrated the pipeline to Google Colab (Tesla T4 GPU) to handle the computational intensity of Transformer fine-tuning.
 - **Methodology:** Established a performance floor using a **Random Forest** baseline before implementing a full fine-tuning pipeline for the final 2,000-sample validation set.
 
 ## 📂 Contents
@@ -25,6 +25,5 @@ The project followed an iterative research workflow, moving from robust ensemble
 - `R_scripts/`: Initial exploration and Random Forest/BERT baseline scripts (R).
 - `previsions/`: Final classification output for the 2,000 validation samples.
 
----
 ---
 **Piero Faedo** 📧 [piero.faedo@outlook.com](mailto:piero.faedo@outlook.com)
