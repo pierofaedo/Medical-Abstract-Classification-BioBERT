@@ -11,7 +11,7 @@ to state-of-the-art Transformers.
 ## 📈 Performance Evolution
 | Phase | Model | Tools | Accuracy |
 | :--- | :--- | :--- | :--- |
-| **01** | **Random Forest** | R (Local) | 0.400 |
+| **01** | **Random Forest** | R (Local) | 0.434 |
 | **02** | **BERT Zero-Shot** | R (Local) | 0.552 |
 | **03** | **BioBERT Fine-Tuning** | **Python (Colab GPU)** | **0.652** |
 
